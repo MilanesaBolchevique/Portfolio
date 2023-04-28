@@ -26,10 +26,10 @@ a{
     flex-direction:column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.6rem;
     position:fixed;
     background-color:rgb(50, 48, 66) ;
-    padding: 1rem;
+    padding: .8rem;
     border-radius: 0rem;
     z-index: 1;
     bottom: 0;
@@ -37,30 +37,31 @@ a{
     left: 0;
 }
 .bar>a>span{
+    font-size: 1.2rem;
     color: aliceblue;
-    padding: 1rem;
+    padding: .8rem;
     background-color: rgba(201, 201, 201, 0.053);
     border-radius: 2rem;
 }
 .contenedorprincipal{
-    margin: 5rem;
+    margin: 3rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
     background-color: rgb(239, 239, 239);
 }
 #container1>h3{
-    margin-top: 5rem;
+    margin-top: 4rem;
     font-weight: 200;
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-bottom: -2rem;
 }
 #container1>h2{
-    font-size: 3rem;
+    font-size: 2.4rem;
     margin-bottom: -0.5rem;
 }
 #container1>p{
     font-weight: 200;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 #container1{
     display: flex;
@@ -73,8 +74,8 @@ a{
     display: flex;
     flex-direction: row;
     gap: 3rem;
-    font-size: 1.2rem;
-    margin: 2rem
+    font-size: 1rem;
+    margin: 1.8rem
 }
 .sec1buttons a{
     transition: 300ms;
@@ -99,7 +100,7 @@ a{
 }
 .sec1img>img{
     margin-top: 2rem;
-    width: 20rem;
+    width: 17rem;
     border-radius: 2rem;
     box-shadow: 0px 0px 42px -12px rgba(0, 0, 0, 0.459);
 }
@@ -114,11 +115,11 @@ a{
 }
 #container2>h3{
     font-weight: 200;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: -1rem;
 }
 #container2>h2{
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: rgb(111, 100, 237);
 }
 #container2>p{
@@ -165,20 +166,28 @@ a{
 .sec2card{
     background-color: rgba(196, 196, 196, 0.139);
     width: 100%;
-    padding: 1rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     border-radius: 1rem;
 }
+.sec2card span{
+    font-size: 1.4rem;
+}
 .sec2card p{
+    font-size: .7rem;
     font-weight: 100;
     color: rgb(56, 56, 56);
 }
 .sec2card h2{
+    font-size: 1.1rem;
     font-weight: 500;
     color: rgb(56, 56, 56);
 }
 .sec2text{
     font-weight: 100;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     width: 70%;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.114);
 }
@@ -207,21 +216,21 @@ a{
 }
 #container3>h3{
     font-weight: 200;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: -1rem;
 }
 #container3>h2{
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: rgb(111, 100, 237);
 }
 .sec3{
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 4rem;
     padding: 2rem;
 }
 .sec3target{
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,22 +246,47 @@ a{
 }
 .targetskills{
     padding: 2rem;
+    padding-top: 0rem;
     display: flex;
     flex-direction: row;
-    gap: 8rem;
+    gap: 6rem;
     align-items: center;
     justify-content: center;
 }
+  .progressBarContainer {
+    width: 7rem;
+    height: .5rem;
+    background: rgba(79, 79, 79, 0.2);
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .progressBarValue {
+    height: 1rem;
+    float: left;
+    background: rgb(130, 126, 184);
+  }
+  .value-00 { width: 0; }
+  .value-10 { width: 10%; }
+  .value-20 { width: 20%; }
+  .value-30 { width: 30%; }
+  .value-40 { width: 40%; }
+  .value-50 { width: 50%; }
+  .value-60 { width: 60%; }
+  .value-70 { width: 70%; }
+  .value-80 { width: 80%; }
+  .value-90 { width: 90%; }
+  .value-100 { width: 100%; }
 .skill h3{
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 100;
     margin-top: -1rem;
 }
 .skill h2{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .skill>h2>span{
     color:rgb(111, 100, 237);
+    font-size: 1rem;
 }
 #container4{
     padding-bottom: 8rem;
@@ -266,18 +300,18 @@ a{
 }
 #container4>h3{
     font-weight: 200;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: -1rem;
 }
 #container4>h2{
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: rgb(111, 100, 237);
 }
 .sec4{
-    background-color: rgba(50, 48, 66, 0.747);
+    background-color: rgba(227, 227, 227, 0.6);
     border-radius: 2rem;
     width: 40%;
-    padding: 2rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -293,15 +327,29 @@ a{
     gap: 1rem;
     width: 100%;
 }
+.targettop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6rem;
+    justify-content: center;
+}
+.targetbot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
 .targetcontact{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: .8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(50, 48, 66, 0.941) ;
-    width: 60%;
-    padding: 1rem;
+    background-color: rgba(201, 201, 201, 0.053) ;
+    width: 10rem;
+    padding: 2rem;
     border-radius: 1rem;
 }
 .targetcontact h2{
@@ -328,6 +376,12 @@ a{
     .targetskills{
         gap: 3rem;
     }
+    .targetbot{
+        gap:0rem;
+    }
+    .targettop{
+        gap:0rem;
+    }
 }
 @media (max-width:1130px){
     .sec3{
@@ -335,7 +389,7 @@ a{
         gap: 3rem;
     }
     .targetcontact{
-        width: 100%;
+        width: 6rem;
     }
     .targetcontact>h3{
         font-size: 100%;
@@ -346,7 +400,7 @@ a{
         margin:0;
     }
     .bar{
-        background-color: rgba(0, 0, 0, 0.059);
+        background-color: rgba(140, 140, 173, 0.651);
         gap: 1rem;
         height: auto;
         flex-direction: row;
@@ -355,9 +409,11 @@ a{
         right: 0;
         left:0;
         border-radius: 2rem;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
     }
     .bar>a>span{
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(59, 58, 102, 0.717);
     }
     #container1{
         padding-top: 4rem;
@@ -385,10 +441,24 @@ a{
     .sec2text{
         width: 100%;
     }
+    .sec4{
+        width: 70%;
+    }
     .targetcontact{
         width: 100%;
+        background-color: rgba(240, 248, 255, 0);
+        padding: 2rem;
     }
     .targetcontact>h3{
         font-size: 100%;
+
+    }
+    .targetbot{
+        flex-direction: column;
+        gap:0rem;
+    }
+    .targettop{
+        flex-direction: column;
+        gap:0rem;
     }
 }
